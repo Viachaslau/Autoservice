@@ -820,6 +820,7 @@ section {
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
+
 .menu .nav-tabs {
   border: 0;
 }
@@ -885,6 +886,7 @@ section {
   font-size: 36px;
   font-weight: 600;
   color: var(--color-primary);
+  text-align: center;
 }
 
 .menu .tab-content .menu-item {
@@ -895,6 +897,7 @@ section {
 .menu .tab-content .menu-item .menu-img {
   padding: 0 60px;
   margin-bottom: 15px;
+  height: 150px;
 }
 
 .menu .tab-content .menu-item h4 {
@@ -904,12 +907,14 @@ section {
   font-family: var(--font-secondary);
   font-weight: 30px;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 .menu .tab-content .menu-item .ingredients {
   font-family: var(--font-secondary);
   color: #8d8d9b;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 .menu .tab-content .menu-item .price {
